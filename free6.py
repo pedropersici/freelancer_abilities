@@ -1,0 +1,8 @@
+print('This is a calculator of equations of the second degree.')
+a = float(input('Enter the number multiplier of x²: '))
+b = float(input('Enter the number multiplier of x: '))
+c = float(input('Enter the number multiplier of the constant: '))
+x1 = (-b + (b**2 - 4*a*c)**(1/2)) / (2*a)
+x2 = (-b - (b**2 - 4*a*c)**(1/2)) / (2*a)
+print('The first root is: {}'.format(x1))
+print('The second root is: {}'.format(x2))
